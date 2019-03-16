@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: cartservice
+  cloud:
+      config:
+        uri: http://localhost:8090
+management:
+        security:
+          enabled: false
+name: Cart Service version 1.0
+server:
+  port: 21902
